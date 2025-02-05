@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Exo;
+
+}
+
+body {
+    /* background-image: linear-gradient(to right top, rgb(245, 144, 223), rgb(220, 96, 96)); */
+    background-image: linear-gradient(to top right, rgba(82, 32, 32, 0.942), rgb(3, 4, 43));
+}
+
+.box {
+    background-image: url('ourteam_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0px 40px 100px 2px rgb(0, 0, 0); */
+
+}
+
+.social-links a:hover {
+    color: #0c52a1;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 3px;
+}
+
+.profile-card {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.782);
+}
+
+.profile-card:hover {
+    height: 280px;
+    border-radius: 20px;
+    transition: .6s;
+}
+
+
+.profile-card:hover .img {
+    transform: translateY(-60px);
+    transition: .6s;
+
+}
+
+.profile-card:hover img {
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px rgb(76, 76, 76);
+}
+
+
+.profile-card:hover .caption {
+    opacity: 1;
+
+
+}

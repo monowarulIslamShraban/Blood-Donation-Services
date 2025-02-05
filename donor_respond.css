@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; /* Center the elements inside the container */
+}
+
+.ld-box {
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  width: 45%; /* Adjust the width as needed */
+  display: inline-block; /* Add this line */
+  box-sizing: border-box; /* Add this line to include padding in the width */
+}
+
+.container {
+  width: 800px;
+  border-radius: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  transition: .6s;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #e74c3c;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.needed_contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.needed_contact .need,
+.needed_contact .contact {
+  flex-grow: 1;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"] {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 95%;
+}
+
+input[type="submit"] {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #c0392b;
+}
+
+/* Add this new style */
+.ld-box:nth-child(odd) {
+  margin-right: 10px; /* Add some spacing between the boxes */
+}

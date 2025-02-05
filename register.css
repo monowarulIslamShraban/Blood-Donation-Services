@@ -1,0 +1,21 @@
+.registration {
+    width: 80%;
+    box-shadow: 0px 0px 20px rgba(113, 113, 113, 0.481);
+    /* height: 700px; */
+}
+
+.bt {
+    /* Use the gradient values for the deep blue color */
+    background-image: linear-gradient(to bottom, #002244, #004488);
+    /* Adjust other button styles as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bt:hover {
+    background-image: linear-gradient(to bottom, #001133, #003366);
+}

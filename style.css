@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --white: F6F4EB;
+    --blue-light: 91C8E4;
+    --blue-semi_light: 749BC2;
+    --blue-dark: 4682A9;
+}
+
+header {
+    /* background-image: url('young-handsome-physician-medical-robe-with-stethoscope.jpg'); */
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

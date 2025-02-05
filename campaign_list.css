@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    /* background-image: linear-gradient(to right, #0F4C81, #416d91); */
+    background-color: rgb(237, 234, 234);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    margin: auto;
+    width: 90%;
+}
+
+span {
+    color: coral;
+}
+
+h1 {
+    font-size: 60px;
+    color: #0F4C81;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: .6s;
+    text-shadow: 10px 10px 40px #7f8181ba;
+}
+
+h1:hover {
+    text-shadow: 10px 10px 40px #7f8181;
+    letter-spacing: 20px;
+    transition: .6s;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+.tbl-header {
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: #0f4c8192;
+
+}
+
+.tbl-content {
+    height: 500px;
+    overflow-y: scroll;
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    border: 1px solid #0F4C81;
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    border-right: 1px solid rgb(209, 208, 208);
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0F4C81;
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    border-bottom: 1px solid #0F4C81;
+
+}
+
+i {
+    font-size: 40px;
+    color: #0F4C81;
+    margin: 20px 0px 0px 0px;
+}
+
+a {
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgb(0, 0, 0);
+}
+
+/* rgba(214, 0, 0, 0.3) */
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 0 0 6px rgba(213, 39, 0, 0.3);
+}

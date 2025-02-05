@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(245, 220, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.age,
+.name,
+.need,
+.contact {
+  flex-grow: 1;
+}
+
+.container {
+  width: 800px;
+  border-radius: 50px;
+  background-color: #fbfafa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  transition: .6s;
+}
+
+.container:hover {
+  scale: 1.01;
+  box-shadow: inset 0px 0px 30px 0px rgb(135, 69, 163);
+  transition: .6s;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #9901ad;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.bloodtype_hu_Q {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 95%;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #9901ad;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #50026e;
+}

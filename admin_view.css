@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--accent-dark);
+}
+
+h2,
+h3 {
+    margin: 0px;
+    padding: 10px;
+}
+
+:root {
+    --accent-clr: #2a3ebc;
+    --accent-dark: #a293b82e;
+    --accent-light: rgb(93, 46, 46);
+    --accent-dark_pirple: #281744;
+    --text: seashell;
+
+}
+
+
+
+#page_wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    font-family: 'Lato', sans-serif;
+
+    /* border: 5px solid rgb(217, 5, 5); */
+}
+
+
+
+.sidenav {
+    /* background-color: #574476;
+     */
+    background-image: linear-gradient(to top right, #5c4d75, #331d56);
+    /* padding-inline: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+.log {
+    margin: 0 auto;
+}
+
+button {
+    padding: 12px;
+    /* width: 50%; */
+    border: none;
+    font-size: 18px;
+    color: var(--text);
+    border-radius: 30px;
+    background-color: #281744;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a1225;
+}
+
+
+.sidenav_link {
+    padding: 15px;
+    margin-bottom: 8px;
+}
+
+.sidenav_link:hover {
+    background-color: var(--accent-dark_pirple);
+    border-radius: 8px;
+}
+
+.sidenav_link.active {
+    font-weight: 700;
+    background-color: #c9b7e8;
+    border-radius: 8px;
+
+}
+
+.logo_section {
+
+    padding: 20px 0px 50px 0px;
+    padding-inline: 14px;
+    text-align: center;
+    color: var(--text);
+}
+
+
+
+.logo_section h3 {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h3 {
+    color: var(--text);
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+.sidenav_link.active .active_color h3 {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bx-calendar {
+    position: relative;
+}
+
+.sidenav_footer {
+    margin-bottom: 12px;
+}
+
+.add {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(40, 176, 181);
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.add:hover {
+    background-color: rgb(36, 76, 113);
+}
+
+main {
+    padding-bottom: 30px;
+    padding-inline: 40px;
+}
+
+.head_tran {
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    /* margin-bottom: 15px; */
+    transition: .6s;
+    /* position: absolut; */
+
+}
+
+.head_tran:hover {
+    text-shadow: 10px 10px 40px #c4b3de;
+    letter-spacing: 10px;
+    transition: .6s;
+}
+
+.head_head {
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    /* margin-bottom: 12px; */
+    color: var(--accent-clr);
+}
+
+p {
+    line-height: 145%;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: var(--accent-dark_pirple);
+    margin-bottom: 32px;
+}
+
+.collapsed h3 {
+    display: none;
+}
+
+.List {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: #2817443b;
+
+}
+
+.tbl-header:hover {
+    background-color: #2817447b;
+    transition: .6s;
+
+}
+
+.tbl-content {
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #281744;
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--accent-dark_pirple);
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--accent-dark_pirple);
+    border-bottom: 1px solid #28174440;
+}
+
+tr>td>.delete {
+    background: red;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    color: var(--text);
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+span {
+    color: var(--accent-dark_pirple);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgb(0, 0, 0);
+}
+
+/* rgba(214, 0, 0, 0.3) */
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 0 0 6px rgba(213, 39, 0, 0.3);
+}
+
+.tbl-content a {
+    color: #5902cc; /* Change link color to white */
+    text-decoration: none;
+}
