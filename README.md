@@ -2,7 +2,7 @@
 
 A web-based platform designed to connect blood donors with individuals and organizations in need. This application facilitates blood requests, donations, and the management of related services through a user-friendly interface for both regular users and administrators.
 
-## 🌟 Features
+## Features
 
 ### User Features
 - **User Authentication:** Secure registration and login system for users.
@@ -26,10 +26,10 @@ A web-based platform designed to connect blood donors with individuals and organ
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 *   **Backend:** Vanilla PHP
-*   **Database:** MySQL / MariaDB
+*   **Database:** MySQL
 *   **Frontend:** HTML, CSS
 *   **Styling Framework:** Tailwind CSS (Configuration present)
 
@@ -78,7 +78,7 @@ You will need a local server environment that supports PHP and MySQL. The most c
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project follows a flat file structure where each `.php` file generally corresponds to a specific page or feature.
 
