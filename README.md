@@ -49,7 +49,7 @@ You will need a local server environment that supports PHP and MySQL. The most c
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/monowarulIslamShraban/Blood-Donation-Services
     ```
     Or simply download the project files as a ZIP.
 
